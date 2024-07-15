@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE7E55E1"
+    android:orientation="vertical"
+    android:padding="30dp">
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar alumno"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Nombre del Alumno"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextCalificacion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Calificación Materia 1"
+        android:inputType="numberDecimal"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextCalificacion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Calificación Materia 2"
+        android:inputType="numberDecimal"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextCalificacion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Calificación Materia 3"
+        android:inputType="numberDecimal"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/botonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="Agregar Alumno" />
+
+    <Button
+        android:id="@+id/botonOrganizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:text="Organizar Alumnos" />
+
+</LinearLayout>

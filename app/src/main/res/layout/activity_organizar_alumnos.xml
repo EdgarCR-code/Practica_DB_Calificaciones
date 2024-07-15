@@ -6,30 +6,46 @@
     android:padding="16dp"
     android:background="#EE7E55E1">
 
-
-    <TextView
+<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Promedios"
-        android:textSize="30dp"
+        android:text="Alumnos Aprobados"
+        android:textSize="25dp"
         android:textStyle="bold|italic"
         android:textColor="#ffffff"
         android:layout_gravity="center"/>
 
     <ListView
-        android:id="@+id/listaAlumnos"
+        android:id="@+id/listaAprobados"
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Alumnos Reprobados"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/listaReprobados"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_margin="30dp"
         android:layout_weight="1"
         android:textColor="#ffffff" />
 
     <Button
-        android:id="@+id/botonAgregar"
+        android:id="@+id/botonVolverInicio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:text="Agregar Alumno" />
+        android:text="Volver al Inicio"/>
 
 </LinearLayout>
